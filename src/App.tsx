@@ -1,24 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ShopCateQuory from "./modules/shop-product";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col gap-y-4 pt-5 items-center justify-center text-black">
+      {/* <h1 className="text-4xl font-bold text-center text-blue-500">
+        Chào mừng đến với Dự Án React, TypeScript và Tailwind CSS!
+      </h1> */}
+      <ShopCateQuory />
     </div>
   );
 }
